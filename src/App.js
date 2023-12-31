@@ -9,7 +9,10 @@
 //import Click from "./Click";
 // import Lists from "./Lists";
 import TODOapp from "./TODOapp";
+
+import Game from "./Game";
 const App= ()=> {
+
   return (
     <div className="App">
       { /*<Main/> */}
@@ -19,7 +22,8 @@ const App= ()=> {
       {/* <UseStateWithObject/> */}
       {/* <Click/> */}
       {/* <Lists/> */}
-      <TODOapp/>
+      {/* <TODOapp/> */}
+      <Game/>
     </div>
   );
 }
